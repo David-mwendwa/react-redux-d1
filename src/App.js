@@ -7,7 +7,8 @@ function App() {
   return (
     <Provider store={store}>
       <div className='App'>
-        <HooksCakeContainer/>
+        <HooksCakeContainer />
+        <hr/>
         <CakeContainer />
       </div>
     </Provider>
